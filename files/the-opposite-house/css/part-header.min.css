@@ -760,7 +760,7 @@ html[lang="zh-HK"] .form-widget__header label span {
   }
 }
 .header--mobile.white .menu-icon-wrap .menu-logo {
-  background: #0000;
+  background: #fff;
 }
 .header--mobile.white .menu-icon-wrap .menu-icon {
   background: #fff;
@@ -843,3 +843,6 @@ html[lang="zh-HK"] .form-widget__header label span {
     transition-delay: 0.4s;
   }
 }
+
+
+
