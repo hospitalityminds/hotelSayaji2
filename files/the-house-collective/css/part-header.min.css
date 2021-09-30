@@ -826,24 +826,649 @@ html[lang="zh-HK"] .form-widget__header label span {
   border-right: none;
 }
 
-
-element.style {
+.no-gutter {
+  padding-left: 0;
+  padding-right: 0;
 }
-@media only screen and (max-width: 568px){
-  .quick-tabs ul li {
+
+
+/* RESPONSIZE */
+@charset "UTF-8";
+
+@media only screen and (max-width: 2502px) and (min-width:1601px) {
+  .abt-full-img{
+    height: 600px;
+  }
+  .grand-content-right p{
+    font-size: 28px;
+  }
+  .grand-content-right{
+    padding: 130px;
+  }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1101px){
+  .locate-map {
+    margin-right: -10vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+@media only screen and (max-width: 1101px) {
+
+}
+@media only screen and (max-width: 1100px) {
+  .book-section .container {
+    max-width: 100%;
+  }
+  .book-section .title-column .inner-box h2{
+    font-size: 16px;
+  }
+  .grand-title h2{
+    font-size: 50px;
+  }
+  .explore-section .content h2{
+    font-size: 26px;
+  }
+  .recent-right {
+    padding-left: 0;
+  }
+  .recent-left {
+    padding-right: 0;
+  }
+  .addr h3, .footer_panel h3{
+    font-size: 14px;
+  }
+  .back-top{
+    display: none;
+  }
+  .about-content{
+    margin-bottom: 30px;
+  }
+  .slider-video{
+    height:70vh;
+  }
+  .locate-map {
+    margin-right: -5vw;
+  }
+  .img_list img{
+    left: -130px;
+  }
+  .img_list a img{
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+  .side-content.header-banquet h2{
+    font-size: 28px;
+  }
+  .tour_list_desc{
+    min-height: 300px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+}
+
+@media only screen and (min-width: 980px) {
+  .row-col-20{
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .page-header .cont {
+    padding: 130px 0 80px;
+  }
+  .vvg-page .navbar-op3 .nav-logo .navbar-brand {
+    width: 130px;
+    padding: 10px 0;
+  }
+  .abt-full-img{
+    margin-right: 0;
+  }
+  #sidemenu_desktop{
+    display: none !important
+  }
+  .transparent-bg:not(.fixedmenu) {
+    background: none;
+    padding: 0;
+  }
+  .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .top-slider{
+    height: 60vh;
+  }
+  .book-nav{
+    display: none;
+  }
+  #sidemenu_toggle {
+    right: 15px;
+  }
+  .transparent-bg .sidemenu_btn>span {
+    background: #d0ab64;
+  }
+  .side-menu .btn-close {
+    top: 33px;
+    margin-right: 1.2rem;
+    right: 25px;
+  }
+  .footer-copyright p.copyright{
+    text-align: center;
+  }
+  .h1fba-right {
+    text-align: center;
+    margin-top: 0;
+  }
+  .nav-language{
+  }
+  .transparent-bg:not(.fixedmenu) {
+    background: rgba(2, 24, 73, 0.5);
+  }
+  .vvg-page .transparent-bg:not(.fixedmenu) {
+    background: var(--tx-dark-blue);
+  }
+  .page-header .img-wrapper {
+    min-height: 50vh;
+  }
+  .book-section .form-column .inner-box{
+    padding-left: 10px;
+  }
+  .custom-button.btn-book{
+    font-size: 12px;
+  }
+  .section-title h3{
+    font-size: 24px;
+  }
+  .addr h3, .footer_panel h3 {
+    font-size: 13px;
+  }
+  .slider .main-slider, .slider{
+    height: 60vh;
+  }
+  .side-gallery {
+    width: 100vw;
+    margin-left: 50%;
+    float: left;
+    transform: translateX(-50%);
+  }
+  .side-gallery div:nth-child(1) {
+    width: 100%;
+  }
+  .side-gallery div:nth-child(2) {
     width: 50%;
-    border-bottom: 1px solid #e3e3e3;
-}
+    margin: 0;
+  }
+  .side-gallery div:nth-child(3) {
+    width: 50%;
+    margin: 0;
+  }
+  .side-gallery .side-content.text-center {
+    padding: 100px 0;
+  }
+  .content-section.top-spacing {
+    margin-top: 0px !important;
+  }
+  .events-tab .tab-nav li a{
+    font-size: 12px;
+  }
+  .choose-us{
+    border-right: none;
+  }
+  .addr {
+    margin-top: 30px;
+    padding-right: 35px;
+  }
+  .navbar-op3 .nav-logo:before{
+    display: none;
+  }
+  .slider-video{
+    height:50vh;
+  }
+  .side-content-single.text-center, .side-content-res {
+    padding: 100px 0;
+  }
+  .side-content.side-content-res {
+    padding-right: 0%;
+  }
+  .side-image.right-full {
+    width: 100%;
+  }
+  .side-hotel-box.right {
+    padding: 100px 0;
+  }
+  .side-image.right-align:after{
+    display: none;
+  }
+  .side-image.overlap-top {
+    transform: translateY(0px);
+  }
+  .content-section.bottom-spacing {
+    margin-bottom: 0px !important;
+  }
+  .side-image.overlap-bottom {
+    transform: translateY(0);
+  }
+  .local-areas h2{
+    font-size: 16px;
+  }
+  .page-header .cont h4{
+    font-size: 1.1rem;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .single-bg-img{
+    margin-top: -180px;
+  }
+  .clean-room{
+    margin-top: 30px;
+  }
+  .health-box-last{
+    padding-bottom: 0 !important;
+  }
+  .quick-tabs ul li a{
+    padding: 20px 9px;
+    font-size: 12px;
+  }
+  .single-banner{
+    height: 50vh;
+  }
+  .img_list img{
+    position: relative;
+    width: 100%;
+    left: 0;
+  }
+  .banquet-img{
+    display: none;
+  }
+  .tour_list_desc{
+    border-right: none;
+    border-bottom: 1px solid #ededed;
+  }
+  .price_list{
+    padding: 0 15px;
+  }
+  .order-exp-2 {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .order-exp-1 {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .order-exp-3 {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  .experience-right, .experience-left {
+    padding:15px 30px;
+  }
+  .experience-middle:after{
+    height: 110px;
+  }
+  .footer-feedbacks .container{
+    max-width: 100%;
+  }
+  .ft-review{
+    padding: 20px 10px;
+  }
+  .ft-review a.btn{
+    font-size: 10px !important;
+  }
+  .single-banner-title{
+    align-items: center;
+    justify-content: center;
+  }
+  .single-banner-title h3{
+    font-size: 3rem;
+  }
+  .vvg-page .navbar {
+    position: relative;
+  }
+  .vaccinated .side-content h2{
+    font-size: 1.1rem;
+  }
+  .side-content.header-banquet h2{
+    font-size: 24px;
+  }
 }
 
-@media only screen and (max-width: 767px){
-  .quick-tabs ul li {
+@media only screen and (max-width: 991px) and (min-width: 768px){
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+  .slider-video{
+    height:80vh;
+  }
+  #main{
+    margin-bottom: 50px;
+  }
+  .our-hotels-mumbai{
+    margin-bottom: 200px;
+  }
+  .book-now-mobile{
+    display: flex;
+  }
+  .noter p{
+    font-size: 11px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .slider-content span {
+    font-size: 11px;
+    letter-spacing: 4px;
+  }
+  .slider-caption h3{
+    font-size: 3.2rem;
+  }
+  .expright{
+    text-align: left;
+  }
+  .top-slider {
+    height: 70vh;
+  }
+  .about-right{
+    margin-top: 40px;
+  }
+  .slider .slider-next, .slider .slider-prev {
+    display: none;
+  }
+  .book-section{
+    z-index: 5;
+    transition: all 1s ease-in-out;
+  }
+  .book-section .title-column .inner-box .arrow-box{
+    right: 6px;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+  }
+  .book-section .form-column{
+    display: none;
+    opacity: 0;
+  }
+  .book-section.book-section-mobile-active .title-column .inner-box .arrow-box{
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  #booknowform-btn{
+    z-index: 3;
+  }
+  .book-section.book-section-mobile-active .form-column{
+    display: block;
+    opacity: 1;
+  }
+  .book-section .title-column .inner-box{
+    padding: 12px 0;
+  }
+  .book-section .form-group{
+    margin-bottom: 10px !important;
+  }
+  .nav-logo {
+    text-align: left;
+  }
+  .navbar-brand{
+    width: 60px;
+    padding: 5px 0px;
+  }
+  .slider .main-slider, .slider{
+    height: 500px;
+  }
+  .slider a{
+    height: 50px;
+    line-height: 50px;
+  }
+  .slider h6{
+    letter-spacing: 0px;
+  }
+  .grand-title h2 {
+    font-size: 42px;
+  }
+  .events-tab .tab-nav{
+    justify-content: flex-start;
+    margin-bottom: 0;
+  }
+  .newsletter-box form input[type="email"]{
+    width: 280px;
+  }
+  .video-title span{
+    font-size: 13px;
+  }
+  .navbar-op3 .nav-logo .navbar-brand {
+    width: 60px;
+  }
+  .quick-tabs ul{
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: none;
+  }
+  .quick-tabs{border-bottom: none;}
+  .quick-tabs ul li{
     display: inline-flex;
     width: 25%;
     height: 100%;
     flex-wrap: wrap;
     justify-content: center;
     border-bottom: 1px solid #e3e3e3;
-}
+  }
+  .vvg-page .quick-tabs ul li{
+      width: 33.333%;
+  }
+  .vvg-page .quick-tabs ul li:last-child{
+      width: 100%;
+  }
+  .quick-tabs ul li a{
+    padding: 12px 10px;
+    font-size: 11px;
+  }
+  .quick-tabs ul li a.active:before{
+    bottom: 8px;
+  }
+  .dining-content{
+    border-right: 0;
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
+  .modal-right{
+    padding-left: 2.5rem;
+  }
+  .modal-cl .close img{
+        filter: brightness(0) invert(1);
+  }
+  .vaccinated h1{
+    font-size: 1.3rem;
+  }
+  .vaccinated h3{
+    font-size: 1.2rem;
+  }
+  .side-content.header-banquet h2{
+    font-size: 21px;
+  }
 }
 
+@media only screen and (max-width: 568px) {
+  .vvg-page .quick-tabs ul li{
+      width: 50%;
+  }
+  .vvg-page .quick-tabs ul li:last-child{
+      width: 100%;
+  }
+  .abt-full-img{
+    height: 350px;
+  }
+  .slider h1{
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  .section-choose .col-6:nth-child(odd){
+    border-right: 1px solid rgba(0,0,0,.1);
+  }
+  .section-choose .col-6{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+  }
+  .section-choose .col-6:last-child{
+    border-right:none;
+    border-bottom: none;
+  }
+  .choose-us{
+    padding: 30px 15px;
+  }
+  .side-content h2{
+    font-size: 26px;
+  }
+  .video-title{
+    text-align: center !important;
+    font-size: 2.5rem;
+  }
+  .valley {
+    margin-top: 90px;
+  }
+  .estate:before{
+    width: 70px;
+    height: 100px;
+    right: calc(50% - 0px);
+  }
+  .page-header .img-wrapper .title h3{
+    font-size: 70px;
+  }
+  .health-box {
+    padding: 50px 15px;
+  }
+  .quick-tabs ul li{
+    width: 50%;
+    border-bottom: 1px solid #e3e3e3;
+  }
+  .quick-tabs {
+    border-bottom: none;
+  }
+  .tour_list_desc{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .tour_list_desc .media .media-body h6.media-heading{
+    font-size: 12px;
+  }
+  .ft-review{
+    border-right: none;
+  }
+  .single-banner {
+    height: 40vh;
+  }
+  .gallery-events-box .swiper-next, .gallery-events-box .swiper-prev{
+    width: 30px;
+    height: 30px;
+  }
+  .gallery-events-box .swiper-next{
+    right: 20px;
+  }
+  .gallery-events-box .swiper-prev{
+    left: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .grand-content-right{
+    padding: 60px 30px;
+  }
+  .ct-img{
+    min-height: 270px;
+  }
+  .footer-copyright p.copyright{
+    margin: 15px 25px;
+  }
+  .addr-mumbai{
+    margin-bottom: 40px;
+  }
+  .abt-full-img{
+    height: 280px;
+  }
+  .newsletter-box form input[type="submit"]{
+    padding: 0 10px;
+  }
+  .newsletter-box form input[type="email"]{
+    width: 175px;
+  }
+  .trip-logo{
+    text-align: left;
+    margin-top: 15px;
+  }
+  .addr{
+    margin-right: 60px;
+  }
+  .grand-title h2 {
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  .local-areas h2{
+    font-size: 13px;
+  }
+  .local-content{
+    margin-top: -10px;
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 767px)
+and (orientation : landscape) {
+
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (orientation : landscape) {
+  .video-title{
+    font-size: 1.5rem;
+  }
+  .our-hotels{
+    margin-top: -90px;
+  }
+  .our-hotels-mumbai {
+    margin-bottom: 130px;
+  }
+  .estate:before{
+    width: 60px;
+    height: 60px;
+    right: -30px;
+    top: -50px;
+  }
+  .valley {
+    margin-top: 10px;
+  }
+  .estate {
+    margin-top: 10px;
+  }
+  .slider-video, .single-banner{
+    height:100vh;
+  }
+}
